@@ -23,6 +23,12 @@ public class ObjectRaycaster : MonoBehaviour
             {
                 Debug.Log("Raycast has hit the object: " + hit.collider.gameObject.name);
             }
+
+            else
+            {
+                Debug.Log("no object detected " );
+            }
+
         }
     }
 }

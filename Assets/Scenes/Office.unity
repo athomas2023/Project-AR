@@ -224,6 +224,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 95407238, guid: 4b4d2ab82a9bfc547bc366c4a5f852eb, type: 3}
+      propertyPath: m_text
+      value: Outside
+      objectReference: {fileID: 0}
+    - target: {fileID: 261916048, guid: 4b4d2ab82a9bfc547bc366c4a5f852eb, type: 3}
+      propertyPath: m_text
+      value: Palor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356295422, guid: 4b4d2ab82a9bfc547bc366c4a5f852eb, type: 3}
+      propertyPath: Scene_Name
+      value: Palor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861546051, guid: 4b4d2ab82a9bfc547bc366c4a5f852eb, type: 3}
+      propertyPath: Scene_Name
+      value: Outside
+      objectReference: {fileID: 0}
     - target: {fileID: 592820803299585045, guid: 4b4d2ab82a9bfc547bc366c4a5f852eb,
         type: 3}
       propertyPath: m_Pivot.x

@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Palor.unity
     guid: 73c7f92a1475dbe4d9f7acf35af2ac5c
+  - enabled: 1
+    path: Assets/Scenes/Room.unity
+    guid: 94477cf2dae8e864588471fdbcbd0dcc
+  - enabled: 1
+    path: Assets/Scenes/Outside.unity
+    guid: 0679aa0a485a99542ab758d683cf8622
+  - enabled: 1
+    path: Assets/Scenes/Office.unity
+    guid: b406e4c27c39d7946945de792dd086de
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

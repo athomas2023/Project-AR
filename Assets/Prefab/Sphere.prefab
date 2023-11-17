@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5784750438035454102}
   - component: {fileID: 5784750438035454103}
+  - component: {fileID: 2972292036944315268}
   - component: {fileID: 5784750438035454101}
   - component: {fileID: 5784750438035454104}
-  - component: {fileID: 5784750438035454100}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -78,6 +78,22 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &2972292036944315268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784750438035454105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b8564e4541c71468b3b93857d8bed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  museumDatabase: {fileID: 0}
+  targetImage: {fileID: 0}
+  targetText: {fileID: 0}
+  SidePort: {fileID: 0}
 --- !u!114 &5784750438035454101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,8 +106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a36e725b73864e548a761b8ccc25c6c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableCameraControl: 1
   sensitivity: 2
+  zoomSpeed: 5
 --- !u!81 &5784750438035454104
 AudioListener:
   m_ObjectHideFlags: 0
@@ -100,18 +116,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5784750438035454105}
   m_Enabled: 1
---- !u!114 &5784750438035454100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5784750438035454105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0b8564e4541c71468b3b93857d8bed8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5784750438525273534
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +142,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5784750438525273534}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.48, y: 1, z: -6.228}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0

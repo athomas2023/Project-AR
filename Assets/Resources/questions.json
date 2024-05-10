@@ -1,0 +1,165 @@
+{
+    "quiz": "Dr. Howard Thurman Quiz",
+    "questions": [
+        {
+            "question": "What is Howard Thurman known for?",
+            "options": [
+                "Theologian",
+                "Author and Educator",
+                "Civil Rights Leader",
+                "All of the above"
+            ],
+            "answer": "All of the above"
+        },
+        {
+            "question": "Where is Howard Thurman’s Childhood Home?",
+            "options": [
+                "Atlanta, Georgia",
+                "Jacksonville, Florida",
+                "Daytona Beach, Florida",
+                "San Francisco, California"
+            ],
+            "answer": "Daytona Beach, Florida"
+        },
+        {
+            "question": "What Elementary School did Howard Thurman Attend?",
+            "options": [
+                "Bonner Elementary",
+                "Turie T. Small Elementary",
+                "Florida Baptist Academy in Jacksonville",
+                "Daytona Colored School"
+            ],
+            "answer": "Florida Baptist Academy in Jacksonville"
+        },
+        {
+            "question": "Where did Howard Thurman attend high school?",
+            "options": [
+                "Florida Baptist Academy",
+                "Excelsior High School",
+                "William Raines High School",
+                "Stanton High School"
+            ],
+            "answer": "Florida Baptist Academy"
+        },
+        {
+            "question": "Which College did Howard Thurman attend after high school?",
+            "options": [
+                "Morehouse College",
+                "Howard University",
+                "Haverford College",
+                "Colgate Rochester Theological Seminary"
+            ],
+            "answer": "Morehouse College"
+        },
+        {
+            "question": "Where did Howard Thurman study philosophy?",
+            "options": [
+                "Boston University",
+                "Haverford College",
+                "Howard University",
+                "Morehouse College"
+            ],
+            "answer": "Haverford College"
+        },
+        {
+            "question": "Who mentored Howard Thurman?",
+            "options": [
+                "Mary McCleod Bethune",
+                "Mahatma Gandhi",
+                "Rufus Jones",
+                "All of the above"
+            ],
+            "answer": "All of the above"
+        },
+        {
+            "question": "Who did Howard Thurman mentor?",
+            "options": [
+                "Dr. Martin Luther King Jr.",
+                "John Lewis",
+                "Jefferson Rogers",
+                "All of the above"
+            ],
+            "answer": "All of the above"
+        },
+        {
+            "question": "What is the name of the interdenominational church Howard Thurman pastored?",
+            "options": [
+                "Mt. Zion A.M.E. church",
+                "Mt. Bethel Baptist Church",
+                "Church for the Fellowship of All Peoples",
+                "Calvary"
+            ],
+            "answer": "Church for the Fellowship of All Peoples"
+        },
+        {
+            "question": "Howard Thurman’s grandmother was a former slave who influenced him greatly. What was her name?",
+            "options": [
+                "Nancy Ambrose",
+                "Mary Thurman",
+                "Alice Jones",
+                "Sue Bailey"
+            ],
+            "answer": "Nancy Ambrose"
+        },
+        {
+            "question": "Who was Howard Thurman’s wife?",
+            "options": [
+                "Alice Jones Thurman",
+                "Sue Bailey Thurman",
+                "Mary Thurman",
+                "Nancy Ambrose"
+            ],
+            "answer": "Sue Bailey Thurman"
+        },
+        {
+            "question": "What time period did Howard Thurman live?",
+            "options": [
+                "1869 - 1950",
+                "1850 - 1921",
+                "1899 - 1981",
+                "1889 - 1931"
+            ],
+            "answer": "1899 - 1981"
+        },
+        {
+            "question": "Which school did Howard Thurman graduate from as valedictorian?",
+            "options": [
+                "Daytona Colored School",
+                "Florida Baptist Academy",
+                "Morehouse College",
+                "All of the above"
+            ],
+            "answer": "Morehouse College"
+        },
+        {
+            "question": "Which University did Howard Thurman’s educational contributions propel him to be recognized as a historical figure enabling his childhood home to be preserved as a historical marker on the federal and Florida state registry?",
+            "options": [
+                "Howard University",
+                "Boston University",
+                "Morehouse College",
+                "Bethune Cookman University"
+            ],
+            "answer": "Boston University"
+        },
+        {
+            "question": "What street is his childhood home located on in Daytona Beach, Florida?",
+            "options": [
+                "Campbell Street",
+                "Cedar Street",
+                "Whitehall Street",
+                "South Street"
+            ],
+            "answer": "Whitehall Street"
+        },
+        {
+            "question": "When was his childhood home built?",
+            "options": [
+                "1790’s",
+                "1850’s",
+                "1890’s",
+                "1920’s"
+            ],
+            "answer": "1890’s"
+        }
+    ]
+}

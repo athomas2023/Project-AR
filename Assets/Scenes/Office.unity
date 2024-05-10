@@ -226,7 +226,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 95407238, guid: 4b4d2ab82a9bfc547bc366c4a5f852eb, type: 3}
       propertyPath: m_text
-      value: Outside
+      value: Bedroom
       objectReference: {fileID: 0}
     - target: {fileID: 261916048, guid: 4b4d2ab82a9bfc547bc366c4a5f852eb, type: 3}
       propertyPath: m_text
@@ -238,7 +238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1861546051, guid: 4b4d2ab82a9bfc547bc366c4a5f852eb, type: 3}
       propertyPath: Scene_Name
-      value: Outside
+      value: Room
       objectReference: {fileID: 0}
     - target: {fileID: 592820803299585045, guid: 4b4d2ab82a9bfc547bc366c4a5f852eb,
         type: 3}
@@ -355,6 +355,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1835951794}
+    - target: {fileID: 7227233240172551053, guid: 4b4d2ab82a9bfc547bc366c4a5f852eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8817639458238269447, guid: 4b4d2ab82a9bfc547bc366c4a5f852eb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -530,7 +535,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: efd56976a5d4ddb46afe835c8db6b476, type: 2}
+      objectReference: {fileID: 2100000, guid: d30f07acf48536f4f86452d75d962195, type: 2}
     - target: {fileID: 5784750438525273534, guid: 78f872503d73ecb48b7395a01b633fa3,
         type: 3}
       propertyPath: m_Name

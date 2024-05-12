@@ -2,42 +2,34 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System.IO;
 using System.Linq;
 
 public class QuizManager : MonoBehaviour
 {
-    [System.Serializable]
-    public class Question
-    {
-        public string question;
-        public List<string> options;
-        public string answer;
-    }
-
-    [System.Serializable]
-    public class Quiz
-    {
-        public string quiz;
-        public List<Question> questions;
-    }
-
     [Header("UI References")]
     public TextMeshProUGUI questionText;
     public List<Button> answerButtons;
     public TextMeshProUGUI scoreText;
 
-    // Make these public so that they are visible in the Inspector
     [Header("Scores")]
     public int score = 0;
     public float percentage = 0f;
 
-    private List<Question> questions;
+    [Header("Quiz Data")]
+    public QuizData quizData; // Reference to the ScriptableObject
+
+    private List<QuizData.Question> questions;
     private int currentQuestionIndex;
 
     private void Start()
     {
-        LoadQuestions();
+        if (quizData == null)
+        {
+            Debug.LogError("QuizData ScriptableObject is not assigned to the QuizManager.");
+            return;
+        }
+
+        LoadQuestionsFromScriptableObject();
         RandomizeQuestions();
         currentQuestionIndex = 0;
         score = 0;
@@ -45,19 +37,10 @@ public class QuizManager : MonoBehaviour
         DisplayQuestion();
     }
 
-    private void LoadQuestions()
+    private void LoadQuestionsFromScriptableObject()
     {
-        string path = Path.Combine(Application.dataPath, "Resources/questions.json");
-        if (File.Exists(path))
-        {
-            string json = File.ReadAllText(path);
-            Quiz quiz = JsonUtility.FromJson<Quiz>(json);
-            questions = quiz.questions;
-        }
-        else
-        {
-            Debug.LogError("Questions JSON file not found at path: " + path);
-        }
+        // Assuming quizData has an array or list of questions
+        questions = quizData.questions.ToList();
     }
 
     private void RandomizeQuestions()
@@ -70,13 +53,13 @@ public class QuizManager : MonoBehaviour
     {
         if (currentQuestionIndex < questions.Count)
         {
-            Question currentQuestion = questions[currentQuestionIndex];
+            QuizData.Question currentQuestion = questions[currentQuestionIndex];
             questionText.text = currentQuestion.question;
 
             for (int i = 0; i < answerButtons.Count; i++)
             {
                 TextMeshProUGUI optionText = answerButtons[i].GetComponentInChildren<TextMeshProUGUI>();
-                if (i < currentQuestion.options.Count)
+                if (i < currentQuestion.options.Length)
                 {
                     optionText.text = currentQuestion.options[i];
                     answerButtons[i].gameObject.SetActive(true);
@@ -98,7 +81,7 @@ public class QuizManager : MonoBehaviour
 
     private void CheckAnswer(string selectedOption)
     {
-        Question currentQuestion = questions[currentQuestionIndex];
+        QuizData.Question currentQuestion = questions[currentQuestionIndex];
         if (selectedOption == currentQuestion.answer)
         {
             score++;
